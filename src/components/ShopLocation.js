@@ -3,7 +3,7 @@ import React from "react";
 const ShopLocation = () => {
   return (
     <>
-      <div className="w-[90%] mx-auto my-8 rounded-2xl">
+      <section className="w-[90%] mx-auto my-8 rounded-2xl">
         <h2 className="text-2xl lg:text-3xl font-semibold text-[#495e57] my-8">
           Find us on map
         </h2>
@@ -17,7 +17,7 @@ const ShopLocation = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div>
+      </section>
     </>
   );
 };
