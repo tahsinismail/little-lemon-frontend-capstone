@@ -1,7 +1,8 @@
 import React from "react";
+import ComingSoon from "./ComingSoon";
 
 const Menu = () => {
-  return <div>Menu</div>;
+  return <ComingSoon />;
 };
 
 export default Menu;

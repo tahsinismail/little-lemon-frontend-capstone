@@ -1,7 +1,8 @@
 import React from "react";
+import ComingSoon from "./ComingSoon";
 
 const Order = () => {
-  return <div>Order</div>;
+  return <ComingSoon />;
 };
 
 export default Order;

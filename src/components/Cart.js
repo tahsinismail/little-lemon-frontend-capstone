@@ -1,7 +1,8 @@
 import React from "react";
+import ComingSoon from "./ComingSoon";
 
 const Cart = () => {
-  return <div>Cart</div>;
+  return <ComingSoon />;
 };
 
 export default Cart;
