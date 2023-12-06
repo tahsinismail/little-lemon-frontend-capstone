@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="w-[90%] lg:h-96 rounded-2xl p-8 mx-auto bg-[#495e57]  text-white flex gap-4 flex-col-reverse lg:flex-row items-center justify-center">
@@ -10,12 +10,12 @@ const Hero = () => {
           We are a family owned mediterranean restaurant, focused on traditional
           recipes served with a modern twist.
         </p>
-        <a
-          href="/booking"
+        <Link
+          to="/booking"
           className="inline-block px-5 py-2 my-4 bg-[#f4ce14] text-black rounded-2xl font-semibold"
         >
           Reserve a table
-        </a>
+        </Link>
       </div>
       <div className="w-full h-60 lg:h-full">
         <img

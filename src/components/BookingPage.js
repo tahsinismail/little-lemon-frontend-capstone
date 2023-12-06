@@ -20,8 +20,8 @@ const BookingPage = () => {
           alertBtnText="Got it, Thanks!"
         />
       </BookingPageContext.Provider>
-      <div className="flex justify-center text-3xl">
-        <h1 className="border bg-[#495e57] border-[#495e57] px-8 py-2 -mb-1 rounded-tl-2xl rounded-tr-2xl text-white">
+      <div className="flex justify-center ">
+        <h1 className="border bg-[#495e57] border-[#495e57] px-8 py-2 -mb-1 rounded-tl-2xl rounded-tr-2xl text-white text-xl lg:text-2xl">
           Reserve a table
         </h1>
       </div>
